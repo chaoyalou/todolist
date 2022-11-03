@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>ToDoList待办事项列表</title>
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+  <header>
+    <h1>
+      前端个人实战案例-待办事项列表
+    </h1>
+  </header>
+  <div class="box">
+    <input type="text" id="title" name="title" placeholder="添加ToDo" required="required" autocomplete="off" />
+    <ol id="todolist">
+      <!-- 已经完成的， li需要有completed类名和 input 需要有checked属性使其选中 -->
+      <!-- <li class="completed">
+        <input type="checkbox" checked />
+        <p>123</p>
+        <a href="javascript:;"></a>
+      </li> -->
+
+      <!-- 未完成的 -->
+      <!-- <li>
+        <input type="checkbox" />
+        <p>123</p>
+        <a href="javascript:;"></a>
+      </li> -->
+    </ol>
+  </div>
+  <footer>Copyright &copy; 2014 todolist.cn</footer>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
